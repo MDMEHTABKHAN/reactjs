@@ -1,18 +1,14 @@
-import Card from "./Card"
+import Header from './Header';
+import Footer from './Footer';
+import Foot from './Foot';
+
 
 function App() {
-  
   return (
     <>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-
+     <Header/>
+     <Footer/>
+     <Foot/>
     </>
   )
 }
